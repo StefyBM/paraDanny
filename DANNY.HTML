@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nuestro Amor</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #e0f7fa, #f0ffff);
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 40px;
+      background: white;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #00acc1;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .heart {
+      font-size: 40px;
+      color: #4dd0e1;
+      animation: pulse 1.5s infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      background-color: #00bcd4;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0, 188, 212, 0.3);
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background-color: #0097a7;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🎵 Música de fondo opcional -->
+  <audio autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+    <div class="heart">💙</div>
+    <h1>Nuestro Amor</h1>
+    <p>
+      Esta página es solo para ti... <br>
+      Porque lo que siento no cabe en un mensaje. <br><br>
+      Aquí están algunas cosas que quiero decirte con el corazón. 💫
+    </p>
+
+    <div class="buttons">
+      <a href="D:\CARTA.HTML">Lo que siento por ti 💌</a>
+      <a href="D:\RECUERDOS.HTML">Nuestros recuerdos 📷</a>
+      <a href="D:\PREGUNTA.HTML">Te tengo una pregunta... 💍</a>
+    </div>
+
+    <footer>
+      Con amor, siempre...<br>
+      Stefy 🌸
+    </footer>
+  </div>
+</body>
+</html>
